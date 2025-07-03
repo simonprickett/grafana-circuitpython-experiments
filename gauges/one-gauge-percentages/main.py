@@ -1,5 +1,3 @@
-from os import getenv
-
 import board
 import pwmio
 import time
