@@ -5,6 +5,12 @@ import pwmio
 import time
 import wifi
 
+# Assumes a Raspberry Pi Pico 2 W, with gauges connected
+# to GP22 / Pin 29, GP26 / Pin 31 and GP16 / Pin 21 and ground. 
+# You can use a single ground pin on the Pico and chain the 
+# ground connections across the three meters. 
+# Sweeps the gauges back and forth on a continuous timer.
+
 ssid = getenv("CIRCUITPY_WIFI_SSID")
 password = getenv("CIRCUITPY_WIFI_PASSWORD")
 
