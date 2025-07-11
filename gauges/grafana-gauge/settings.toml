@@ -1,0 +1,4 @@
+CIRCUITPY_WIFI_SSID = "Your wifi SSID..."
+CIRCUITPY_WIFI_PASSWORD = "Your wifi password..."
+GRAFANA_URL = "Base URL to your Grafana Stack e.g. something.grafana.net..."
+GRAFANA_TOKEN = "Your Grafana API token..."
