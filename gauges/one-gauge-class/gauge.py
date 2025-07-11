@@ -4,7 +4,7 @@ import time
 
 class Gauge:
     MIN_SLEEP = 0.01
-    MAX_SLEEP = 0.05
+    MAX_SLEEP = 0.04
     MAX_DUTY_CYCLE = 60000
 
     def __init__(self, pin):
