@@ -28,6 +28,7 @@ class Gauge:
     
     
     # Source from: https://gist.github.com/robweychert/7efa6a5f762207245646b16f29dd6671
+    # Example web implementation at: https://codepen.io/ahopkins/pen/beNWWp
     def __easeInOutSine(self, t):
         return -(math.cos(math.pi * t) -1) / 2
     
